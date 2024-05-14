@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rewrite</title>
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./rewrite.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:wght@100..900&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css"
+            rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <div id="nav_box">
+                <a href="./index.html">
+                    <p class="nav_text">Home</p>
+                </a>
+                <div class="point"></div>
+                <a href="./forum.html">
+                    <p class="nav_text">Forum</p>
+                </a>
+                <div class="point"></div>
+                <a href="./login.html">
+                    <p class="nav_text">Login</p>
+                </a>
+                <div class="point"></div>
+                <a href="./signup.html">
+                    <p class="nav_text">Sign-Up</p>
+                </a>
+            </div>
+        </header>
+        <main>
+            <div id="main_box">
+                <form action="#">
+                    <input type="text" placeholder="제목" id="title" value="">
+                    <div id="editor_form">
+                        <div id="editor"></div>
+                        
+                    <div id="button_box">
+                        <a href="./forum.html">
+                            <div class="button" id="cancel">취소</div>
+                        </a>
+                        <button type="submit" class="button" id="submit">등록</button>
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
+        <script>
+            const quill = new Quill('#editor', {theme: 'snow'});
+        </script>
+    </body>
+</html>

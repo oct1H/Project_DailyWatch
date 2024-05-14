@@ -1,0 +1,121 @@
+header {
+    width: 100%;
+    min-width: 1600px;
+    height: 300px;
+    background-image: url("./images/rewrite.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#nav_box {
+    width: 376px;
+    height: 56px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #800021;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_text {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.point {
+    width: 4px;
+    height: 4px;
+    border-radius: 999px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    width: 100%;
+    min-width: 1600px;
+    min-height: calc(100vh - 220px);
+}
+#main_box {
+    width: 1168px;
+    background-color: #F5F5F5;
+    position: relative;
+    margin: -80px auto;
+    display: flex;
+    justify-content: center;
+}
+form {
+    width: 1104px;
+    background-color: #FFFFFF;
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color: #DFDFDF;
+    margin: 32px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#editor_form {
+    width: 1040px;
+    min-height: calc(100vh - 220px);
+    display: flex;
+    flex-direction: column;
+}
+#editor {
+    width: 1040px;
+    height: 700px;
+}
+
+#title {
+    width: 1040px;
+    height: 64px;
+    border: 1px solid #DFDFDF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 32px;
+    padding: 13px 0 12px 16px;
+    box-sizing: border-box;
+    margin: 32px 0;
+}
+#main_text_img {
+    width: 640px;
+    height: 360px;
+    margin: 50px 0 16px 8px;
+}
+#button_box {
+    width: 248px;
+    height: 60px;
+    display: flex;
+    gap: 8px;
+    margin: 8px 0px 160px 0;
+    align-self: flex-end;
+}
+.button {
+    width: 120px;
+    height: 60px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cancel {
+    background-color: #808080;
+}
+#submit {
+    background-color: #800021;
+}
+a {
+    text-decoration-line: none;
+}

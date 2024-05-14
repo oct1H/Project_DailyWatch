@@ -1,0 +1,114 @@
+header {
+    width: 100%;
+    min-width: 1600px;
+    height: 1080px;
+    background-image: url("./images/login.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav_box {
+    width: 376px;
+    height: 56px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #800021;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_text {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.point {
+    width: 4px;
+    height: 4px;
+    border-radius: 999px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+#main {
+    width: 1168px;
+    height: 640px;
+    position: absolute;
+    margin: 220px;
+    background-color: #ECF0F3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 8px;
+    box-shadow: 0 0 4px 8px rgb(255,255,255,0.5);
+}
+form {
+    width: 678px;
+    height: 640px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+h1 {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    margin: 80px 0 96px;
+}
+.login_input {
+    width: 400px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid #8086A4;
+    box-shadow: 4px 4px 4px rgb(128,134,164,0.5);
+    padding: 16px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0 0 16px;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#checkbox {
+    width: 140px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 376px;
+    left: 389px;
+}
+#submit {
+    width: 200px;
+    height: 64px;
+    border-radius: 128px;
+    background-color: #800021;
+    color: #FFFFFF;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    border: none;
+    margin: 80px 0 0;
+}
+#first_img_box {
+    width: 482px;
+    height: 640px;
+}
+a {
+    text-decoration-line: none;
+}
