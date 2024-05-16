@@ -1,0 +1,230 @@
+header {
+    width: 100%;
+    min-width: 1600px;
+    height: 300px;
+    background-image: url("./images/forum.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#nav_box {
+    width: 376px;
+    height: 56px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #800021;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_text {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.point {
+    width: 4px;
+    height: 4px;
+    border-radius: 999px;
+    background-color: #FFFFFF;
+}
+main {
+    width: 100%;
+    min-width: 1600px;
+    min-height: 780px;
+}
+#main_box {
+    width: 1168px;
+    background-color: #FFFFFF;
+    position: relative;
+    margin: -80px auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#box_1 {
+    width: 120px;
+    height: 120px;
+    background-color: #800021;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+#box_2 {
+    width: 1048px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2,
+h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+h2 {
+    width: 180px;
+    height: 44px;
+    font-size: 36px;
+    margin: 0 0 0 16px;
+}
+h3 {
+    width: 480px;
+    height: 38px;
+    font-size: 16px;
+    color: #808080;
+    margin: 0 0 0 16px;
+    line-height: normal;
+}
+#box_3 {
+    width: 1168px;
+    height: 740px;
+    background-color: #F5F5F5;
+    display: grid;
+    justify-content: center;
+    gap: 12px;
+    grid-template-columns: 360px 360px 360px;
+    grid-template-rows: 270px 270px 270px;
+}
+.item {
+    width: 360px;
+    height: 270px;
+    background-color: #FFFFFF;
+    margin: 32px 0 0;
+    border: 1px solid #DFDFDF;
+}
+.item:hover {
+    transform: scale(1.02);
+    transition-duration: 0.5s;
+}
+.item_img {
+    width: 360px;
+    height: 214px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #DFDFDF;
+}
+.photo {
+    margin: 0 8px 0 16px;
+    width: 24px;
+    height: 24px;
+}
+.item_text_box {
+    width: 360px;
+    height: 56px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.item_text {
+    width: 200px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.comment_view {
+    width: 112px;
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+}
+.photo_2,
+.photo_3 {
+    width: 16px;
+    height: 16px;
+    margin: 0 0 0 4px;
+}
+.cv {
+    width: 16px;
+    margin: 0 4px;
+}
+#write_button {
+    width: 90px;
+    height: 40px;
+    background-color: #800021;
+    position: absolute;
+    top: 712px;
+    left: 1046px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#write_button_img {
+    width: 24px;
+    height: 24px;
+    border-radius: 999px;
+}
+#write_button > p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: #FFFFFF;
+}
+#page_box {
+    width: 152px;
+    height: 32px;
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    top: 748px;
+    left: 508px;
+}
+.page_box {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #DFDFDF;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page_num {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+.page_box > img {
+    width: 24px;
+    height: 24px;
+}
+#active_box {
+    background-color: #DFDFDF;
+}
+a {
+    text-decoration-line: none;
+}
+.menu:visited {
+    color: #000000;
+}
+.menu:link {
+    color: #000000;
+}
+.page_box {
+    color: #000000;
+}
