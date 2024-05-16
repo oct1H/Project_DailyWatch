@@ -184,6 +184,38 @@ h3 {
     font-variation-settings: "slnt" 0;
     color: #FFFFFF;
 }
+#search_button {
+    width: 80px;
+    height: 40px;
+    background-color: #800021;
+    position: absolute;
+    top: 712px;
+    left: 962px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#search_button_img {
+    width: 24px;
+    height: 24px;
+    border-radius: 999px;
+}
+#search_button > p {
+    background-color: #800021;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: #FFFFFF;
+}
+#search_button:hover{
+    opacity: 0.9;
+}
+#write_button:hover{
+    opacity: 0.9;
+}
 #page_box {
     width: 152px;
     height: 32px;
